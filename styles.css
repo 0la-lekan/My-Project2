@@ -4,6 +4,10 @@
     font-family: 'Roboto', sans-serif;
 }
 .header {
-    color: #f9faf8;
     background-color: #1f2937;
+    font-size: 24px;
+}
+a {
+    text-decoration: none;
+    color: #f9faf8;
 }
