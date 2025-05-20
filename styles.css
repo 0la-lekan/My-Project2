@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
 
-* {
+body {
     font-family: 'Roboto', sans-serif;
 }
 .header {
@@ -64,4 +64,42 @@ button {
     padding: 5px 20px;
     color: #eee;
     font-size: large;
+}
+
+
+
+.img-box-1, 
+.img-box-2,
+.img-box-3,
+.img-box-4 {
+    display: flex;
+    max-width: 300px;
+    max-height: 200px;
+    flex-direction: column;
+}
+
+ .box-3 img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    border: blue 3px solid;
+    border-radius: 10px;
+    flex: none;
+}
+.box-3 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+div .fact-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-3 .header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
 }
