@@ -73,9 +73,11 @@ button {
 .img-box-3,
 .img-box-4 {
     display: flex;
-    max-width: 300px;
+    width: 200px;
     max-height: 200px;
     flex-direction: column;
+    flex: 1;
+
 }
 
  .box-3 img {
@@ -90,11 +92,14 @@ button {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    margin: 0px 90px;
+    overflow: auto;
 }
 
 div .fact-img {
     display: flex;
     justify-content: space-evenly;
+    gap: 32px;
 }
 
 .box-3 .header-text {
@@ -102,4 +107,28 @@ div .fact-img {
     font-weight: 900;
     color: #1f2937;
     text-align: center;
+}
+.text {
+    text-align: center;
+}
+
+
+
+.box-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0 90px;
+}
+
+.box-4 .quote-origin {
+    margin-left: auto;
+    font-weight: bold;
+    font-style: normal;
 }
